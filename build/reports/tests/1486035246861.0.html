@@ -1,0 +1,229 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="/dashboard/static/libs/cm-universal/css/font.css;jsessionid=E64E4A1CEE8E4AB04226A4810F330F59" type="text/css" />
+    <link rel="stylesheet" href="/dashboard/static/css/login.css;jsessionid=E64E4A1CEE8E4AB04226A4810F330F59" type="text/css" />
+    <script type="text/javascript" src="/dashboard/static/libs/jquery/jquery-2.1.1.min.js;jsessionid=E64E4A1CEE8E4AB04226A4810F330F59"></script>
+</head>
+
+<body>
+
+
+
+<div class="login">
+    <div class="block_header">
+            <div class="header-inline">
+                <h1>CM Dashboard</h1>
+            </div>
+            <div class="login-beta-icon"></div>
+    </div>
+    <div class="content-log">
+        <form id="loginFormId" action="/dashboard/j_spring_security_check;jsessionid=E64E4A1CEE8E4AB04226A4810F330F59" method="post">
+            <span>
+                <label>Пользователь:</label>
+                
+                    
+                        <select name="j_username" id="usernameId" class="form-control ">
+                            
+                                <option value="1" id="role_1">Администратор тестовых кампаний ветви Casual</option>
+                            
+                                <option value="2" id="role_2">Координатор тестовых кампаний ТМ ветви Casual</option>
+                            
+                                <option value="4" id="role_4">Ответственный за запуск тестовых VOICE-кампан ветви Casual</option>
+                            
+                                <option value="5" id="role_5">Ответственный за запуск тестовых IVR-кампаний ветви Casual</option>
+                            
+                                <option value="6" id="role_6">Аналитик ДИТ тестовых кампаний ветви Casual</option>
+                            
+                                <option value="7" id="role_7">Администратор промышленных кампаний ветви Casual</option>
+                            
+                                <option value="8" id="role_8">Координатор промышленных кампаний ветви Casual</option>
+                            
+                                <option value="10" id="role_10">Координатор тестовых коммуникаций ветви Casual</option>
+                            
+                                <option value="11" id="role_11">Аналитик ДИТ промышленных кампаний ветви Casual</option>
+                            
+                                <option value="12" id="role_12">Ответственный за запуск промышленных кампани ветви Casual</option>
+                            
+                                <option value="13" id="role_13">Читатель</option>
+                            
+                                <option value="14" id="role_14" selected="selected">Администратор</option>
+                            
+                                <option value="104" id="role_104">Администратор кампаний ветви IVR опросы</option>
+                            
+                                <option value="105" id="role_105">Ответственный за запуск WebTMC ветви Casual</option>
+                            
+                                <option value="114" id="role_114">Администратор B2B</option>
+                            
+                                <option value="150" id="role_150">Администратор мотивационной схемы для ОПСП</option>
+                            
+                                <option value="151" id="role_151">Руководитель группы обзвона ОПСП</option>
+                            
+                                <option value="152" id="role_152">Руководитель ОПСП</option>
+                            
+                                <option value="184" id="role_184">Координатор промышленных кампаний ДИТ ветви Casual</option>
+                            
+                                <option value="204" id="role_204">Администратор кампаний ветви Casual</option>
+                            
+                                <option value="205" id="role_205">Координатор кампаний ТМ ветви Casual</option>
+                            
+                                <option value="206" id="role_206">Координатор кампаний ДИТ ветви Casual</option>
+                            
+                                <option value="207" id="role_207">Ответственный за запуск кампаний ветви Casual</option>
+                            
+                                <option value="208" id="role_208">Аналитик кампаний (ИТ) ветви Casual</option>
+                            
+                                <option value="212" id="role_212">Администратор кампаний ветви FTTB</option>
+                            
+                                <option value="213" id="role_213">Координатор кампаний TM ветви FTTB</option>
+                            
+                                <option value="214" id="role_214">Координатор кампаний ДИТ ветви FTTB</option>
+                            
+                                <option value="215" id="role_215">Ответственный за запуск кампаний ветви FTTB</option>
+                            
+                                <option value="216" id="role_216">Аналитик кампаний (ИТ) ветви FTTB</option>
+                            
+                                <option value="217" id="role_217">Администратор кампаний ветви Casual и FTTB</option>
+                            
+                                <option value="218" id="role_218">Координатор кампаний TM ветви Casual и FTTB</option>
+                            
+                                <option value="219" id="role_219">Координатор кампаний ДИТ ветви Casual и FTTB</option>
+                            
+                                <option value="220" id="role_220">Ответственный за запуск кампаний ветви Casual и FTTB</option>
+                            
+                                <option value="221" id="role_221">Аналитик кампаний (ИТ) ветви Casual и FTTB</option>
+                            
+                                <option value="222" id="role_222">Аналитик кампаний (ИТ) ветви B2B</option>
+                            
+                                <option value="223" id="role_223">Координатор кампаний ДИТ ветви Casual, FTTB и B2B</option>
+                            
+                                <option value="224" id="role_224">Администратор кампаний ветви Casual, FTTB и B2B</option>
+                            
+                                <option value="225" id="role_225">Аналитик кампаний (ИТ) ветви Casual, FTTB и B2B</option>
+                            
+                                <option value="400" id="role_400">SNG_Администратор</option>
+                            
+                                <option value="401" id="role_401">SNG_Администратор кампаний Казахстана</option>
+                            
+                                <option value="402" id="role_402">SNG_Администратор кампаний Армении</option>
+                            
+                                <option value="403" id="role_403">SNG_Администратор кампаний Узбекистана</option>
+                            
+                                <option value="404" id="role_404">SNG_Администратор кампаний Грузии</option>
+                            
+                                <option value="405" id="role_405">SNG_Администратор кампаний Таджикистана</option>
+                            
+                                <option value="406" id="role_406">SNG_Читатель</option>
+                            
+                                <option value="407" id="role_407">SNG_Читатель кампаний Казахстана</option>
+                            
+                                <option value="408" id="role_408">SNG_Читатель кампаний Армении</option>
+                            
+                                <option value="409" id="role_409">SNG_Читатель кампаний Узбекистана</option>
+                            
+                                <option value="410" id="role_410">SNG_Читатель кампаний Грузии</option>
+                            
+                                <option value="411" id="role_411">SNG_Читатель кампаний Таджикистана</option>
+                            
+                                <option value="501" id="role_501">Администратор ветви Mobile Advertising</option>
+                            
+                                <option value="502" id="role_502">Администратор ветви Info</option>
+                            
+                                <option value="503" id="role_503">Партнер Mobile Advertising</option>
+                            
+                                <option value="504" id="role_504">Менеджер Mobile Advertising</option>
+                            
+                                <option value="505" id="role_505">Эксперт Mobile Advertising</option>
+                            
+                                <option value="506" id="role_506">Аналитик Mobile Advertising</option>
+                            
+                                <option value="507" id="role_507">Внешний Аналитик Mobile Advertising</option>
+                            
+                                <option value="508" id="role_508">Администратор ЦПК</option>
+                            
+                                <option value="510" id="role_510">Администратор ветви FTTB NBA</option>
+                            
+                                <option value="518" id="role_518">Администратор ветви ДОК</option>
+                            
+                                <option value="530" id="role_530">Региональный сотрудник Приволжский регион</option>
+                            
+                                <option value="531" id="role_531">Региональный сотрудник Северо-Западный регион</option>
+                            
+                                <option value="532" id="role_532">Региональный сотрудник Московский регион</option>
+                            
+                                <option value="533" id="role_533">Региональный сотрудник Уральский регион</option>
+                            
+                                <option value="535" id="role_535">Региональный сотрудник Дальневосточный регион</option>
+                            
+                                <option value="538" id="role_538">Региональный сотрудник Сибирский регион</option>
+                            
+                                <option value="539" id="role_539">Региональный сотрудник Южный и Кавказский регион</option>
+                            
+                                <option value="540" id="role_540">Координатор IVR NBA</option>
+                            
+                                <option value="546" id="role_546">Сотрудник ШК Просмотр кампаний всех регионов</option>
+                            
+                                <option value="547" id="role_547">Пользователь</option>
+                            
+                        </select>
+                    
+                    
+                
+                <label>Пароль:</label>
+                <input type="password" name="j_password" id="passwordId" class="" />
+                
+            </span>
+            <button type="submit" class="btn_submit"><img src="/dashboard/static/images/str.png;jsessionid=E64E4A1CEE8E4AB04226A4810F330F59" />
+
+                <h2>Вход в систему</h2>
+            </button>
+        </form>
+    </div>
+</div>
+
+<script type="text/javascript">
+        function getIEVersion() {
+            if(document.all === undefined)
+                return null;
+
+            if(!document.compatMode)
+                return "5.x";
+
+            if(!window.XMLHttpRequest)
+                return "6.0";
+
+            if(!document.querySelector)
+                return "7.0";
+
+            if(!document.addEventListener)
+                return "8.0";
+
+            if(!window.atob)
+                return "9.0";
+
+            return "10.0";
+
+        }
+    var ieVersion = getIEVersion();
+    if (ieVersion != null &amp;&amp; ieVersion != "10.0") {
+        window.location.href =  "/dashboard/notSupportedBrowser;jsessionid=E64E4A1CEE8E4AB04226A4810F330F59?ieVersion=" + ieVersion;
+    }
+    
+    $("#passwordId").val('123');
+    $("#role_14").attr("selected", "selected");
+    
+
+    $('#loginFormId').submit(function () {
+        if ($('#usernameId').val().trim().length == 0 || $('#passwordId').val().length == 0) {
+            $('.error').removeClass('error');
+            $('.error_s').remove();
+            $('#passwordId').after('&lt;div class="error_s"&gt;&lt;p&gt;Логин и пароль должны быть заполнены&lt;/p&gt;&lt;/div&gt;');
+            return false;
+        }
+        return true;
+    });
+
+    $("usernameId").focus();
+</script>
+
+
+</body></html>
